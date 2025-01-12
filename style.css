@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, san-serif;
+    background-color: #8b2de2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin: 20px 0;
+}
+
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#dog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
